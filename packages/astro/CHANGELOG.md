@@ -1,5 +1,15 @@
 # astro
 
+## 5.16.10
+
+### Patch Changes
+
+- [#15148](https://github.com/withastro/astro/pull/15148) [`2fa19c4`](https://github.com/withastro/astro/commit/2fa19c41be895e5255a8b12a43f9f9691cb57e5d) Thanks [@MkDev11](https://github.com/MkDev11)! - Improved error handling in the rendering phase
+
+  Added defensive validation in `App.render()` and `#renderError()` to provide a descriptive error message when a route module doesn't have a valid page function.
+
+- [#15169](https://github.com/withastro/astro/pull/15169) [`b803d8b`](https://github.com/withastro/astro/commit/b803d8b4b4e5e71ef4b28b23186e2786dc80a308) Thanks [@rururux](https://github.com/rururux)! - fix: fix image 500 error when moving dist directory in standalone Node
+
 ## 5.16.9
 
 ### Patch Changes
