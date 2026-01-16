@@ -1,4 +1,5 @@
 import assert from 'node:assert';
+import * as os from 'node:os';
 import * as path from 'node:path';
 import { before, describe, it } from 'node:test';
 import { Range } from '@volar/language-server';
@@ -75,6 +76,6 @@ describe('Formatting - Prettier', () => {
 			'  )',
 			'}',
 			'',
-		].join('\n'));
+		].join(os.EOL));
 	});
 });
